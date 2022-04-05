@@ -1,0 +1,70 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color: black;
+    color: white
+  }
+  
+  #header-text{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px 0 0 0
+  }
+  
+  #secondary-text{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #magic-pic{
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+     -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; 
+  }
+  
+  #getAnswer{
+    padding: 10px;
+    background: black;
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    margin: 50px auto;
+    display: block;
+    cursor: pointer
+  }
+  
+  #getAnswer:hover{
+    background: gray
+  }
+  
+  @keyframes wiggle { 
+    0% { transform: translate(4px, 4px) rotate(0deg); }
+    10% { transform: translate(-4px, -3px) rotate(-1deg); }
+    20% { transform: translate(-6px, -3px) rotate(1deg); }
+    30% { transform: translate(6px, 5px) rotate(0deg); }
+    40% { transform: translate(4px, -4px) rotate(1deg); }
+    50% { transform: translate(-4px, 5px) rotate(-1deg); }
+    60% { transform: translate(-6px, 4px) rotate(0deg); }
+    70% { transform: translate(6px, 4px) rotate(-1deg); }
+    80% { transform: translate(-4px, -4px) rotate(1deg); }
+    90% { transform: translate(4px, 5px) rotate(0deg); }
+    100% { transform: translate(4px, -5px) rotate(-1deg); }
+  }
+  
+  .wiggle { 
+    -webkit-animation-name: wiggle;
+    animation-name: wiggle; 
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; 
+  }
+  
+  .animated.wiggle { 
+    -webkit-animation-duration: 0.75s; 
+    animation-duration: 0.75s;
+  }
