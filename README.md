@@ -4,3 +4,5 @@ Growing up I never got to experience the joys of having a magical 8 ball so I de
 
 Demo Functionality:
 Basically you click button and it will generate two user input field text blocks; Enter your're name and the question you wish to ask and the Csh magic 8 ball will scower through the universe and provide an response with it generated Api (Of which I'm still working on).
+
+npm run api instead of running node ./src/public/index.js

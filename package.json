@@ -1,0 +1,25 @@
+{
+    "name": "magic8ball-1",
+    "version": "1.0.0",
+    "description": "Growing up I never got to experience the joys of having a magical 8 ball so I decided I wanted to go about try implementing my own version of the concept online so I learned how to implement HTML, CSS, and JavaScript in my code. My hope is that my magic 8 ball can become accessible to the CSH main website page so that all members of the org can also use and play around with the magical 8 ball. I know my project might not be as grand as the rest of the other amazing projects passed this semester but it was a project I created so that anyone can have fun with and enjoy and I'm greatly proud of it. Though my level of technical skill isn't in the same league as most CSHers, I won't give up until I'm able to reach that level and I will keep working towards that goal with each major project I work on. Project: http://magic-8-ball-git-magic8ball.apps.okd4.csh.rit.edu/ Slides presentation pitch: https://docs.google.com/presentation/d/11FMPWi3UwJzPOhm9bX6oyXrEdv8rD0h6-Nj2IVr3NfI/edit#slide=id.g11f1aeb5688_0_18",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "api": "node ./src/public/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Freshnick71/magic8ball.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Freshnick71/magic8ball/issues"
+    },
+    "homepage": "https://github.com/Freshnick71/magic8ball#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.17.3"
+    }
+}

@@ -24,5 +24,25 @@ answerButton.addEventListener("click", () => {
         console.log(random)
         console.log(answers)
         func()
+
     }, 2000)
 })
+
+//Learning an Api
+function sendtoAPI(item) { //answers[random]
+    var req = new XMLHttpRequest(); //another option is fetch
+    req.open('POST', '/add');
+    req.setRequestHeader('Content-Type', 'application/json');
+    //console.log(item);
+    req.send(JSON.stringify({ item: item }));
+
+    req.addEventListener('load', () => {
+        //console.log(req.responseText);
+        console.log('Request completed.');
+    })
+
+    req.addEventListener('error', () => {
+        console.log('Technical difficulties');
+        console.log(error);
+    });
+}
