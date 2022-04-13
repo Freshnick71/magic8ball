@@ -24,6 +24,7 @@ answerButton.addEventListener("click", () => {
         console.log(random)
         console.log(answers)
         func()
+
     }, 2000)
 })
 
